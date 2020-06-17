@@ -37,6 +37,10 @@ Install Python dependencies:
 
     sudo pip install -r requirements.txt
 
+Add the environment variable SAPIENZ_HOME containing the location of this project, for example:
+
+    export SAPIENZ_HOME=/home/<user>/sapienz-workspace/
+
 
 ## Usage
     python main.py <apk_path | source_folder_path>
